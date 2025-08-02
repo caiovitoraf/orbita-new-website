@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+:root {
+  --color-orbita-purple-darkest: #4420A9;
+  --color-orbita-purple-dark: #5E18C3;
+  --color-orbita-purple: #8723DA; /* Cor para título*/
+  --color-orbita-purple-light: #9D2ADD;
+  --color-orbita-deep-purple: #4F1557;
+  --color-orbita-cyan: #009AC0;
+  --color-orbita-cyan-light: #4EA5C3;
+
+  --color-neutral-50: #f8fafc;
+  --color-neutral-100: #f1f5f9;
+  --color-neutral-200: #e2e8f0;
+  --color-neutral-300: #cbd5e1;
+  --color-neutral-400: #94a3b8;
+  --color-neutral-500: #64748b;
+  --color-neutral-600: #475569;
+  --color-neutral-700: #334155;
+  --color-neutral-800: #1e293b;
+  --color-neutral-900: #0f172a;
+
+  --font-sans: "Poppins", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+@theme {
+  --color-orbita-purple-darkest: #4420A9;
+  --color-orbita-purple-dark: #5E18C3;
+  --color-orbita-purple: #8723DA;
+  --color-orbita-purple-light: #9D2ADD;
+  --color-orbita-deep-purple: #4F1557;
+  --color-orbita-cyan: #009AC0;
+  --color-orbita-cyan-light: #4EA5C3;
+
+  --color-neutral-50: #f8fafc;
+  --color-neutral-100: #f1f5f9;
+  --color-neutral-200: #e2e8f0;
+  --color-neutral-300: #cbd5e1;
+  --color-neutral-400: #94a3b8;
+  --color-neutral-500: #64748b;
+  --color-neutral-600: #475569;
+  --color-neutral-700: #334155;
+  --color-neutral-800: #1e293b;
+  --color-neutral-900: #0f172a;
+
+  --font-sans: "Poppins", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-body);
+    background-color: var(--color-neutral-50);
+    color: var(--color-neutral-700);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-sans);
+    color: var(--color-neutral-800);
+  }
+}
+
+@keyframes orbit {
+  from {
+    transform: rotate(0deg) translateX(18px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(18px) rotate(-360deg);
+  }
+}
+
+.animate-orbit {
+  animation: orbit 4s linear infinite;
+}
