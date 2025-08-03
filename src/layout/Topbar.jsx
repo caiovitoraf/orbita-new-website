@@ -16,12 +16,11 @@ function Topbar() {
   ];
 
   return (
-    <div className="bg-neutral-900 px-4 sm:px-6 lg:px-8">
-      <div className="container mx-auto flex h-10 items-center justify-between">
+    <div className="bg-neutral-900">
+      <div className="container mx-auto flex h-10 items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Informações de Contato */}
         <div className="flex items-center gap-x-6 text-sm text-neutral-400">
           <a href="tel:21987373813" className="flex items-center gap-x-2 transition-colors hover:text-white">
-            {/* O ícone herda a cor do <a> */}
             <PhoneIcon className="h-4 w-4" />
             <span>(21) 98737-3813</span>
           </a>
@@ -38,10 +37,8 @@ function Topbar() {
               key={social.name}
               href={social.href}
               aria-label={social.name}
-              // A cor base do ícone é definida aqui
               className="text-neutral-500 transition-colors hover:text-white"
             >
-              {/* O tamanho do ícone é padronizado aqui */}
               <social.Icon className="h-6 w-6" />
             </a>
           ))}
