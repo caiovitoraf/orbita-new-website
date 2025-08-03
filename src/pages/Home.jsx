@@ -4,6 +4,8 @@ import Diferenciais from './Home/Diferenciais';
 import AbordEstrat from './Home/AbordEstrat';
 import NossasSolucoes from './Home/NossasSolucoes';
 import AprovacaoSocial from './Home/AprovacaoSocial';
+import Carrossel from './Home/Carrossel';
+import Cta from './Home/Cta';
 
 function Home() {
   return (
@@ -12,7 +14,9 @@ function Home() {
       <AbordEstrat />
       <Diferenciais />
       <NossasSolucoes />
+      <Carrossel />
       <AprovacaoSocial />
+      <Cta />
     </>
   );
 }

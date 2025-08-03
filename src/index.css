@@ -25,6 +25,7 @@
 }
 
 @theme {
+  /* Cores e fontes */
   --color-orbita-purple-darkest: #4420A9;
   --color-orbita-purple-dark: #5E18C3;
   --color-orbita-purple: #8723DA;
@@ -46,6 +47,14 @@
 
   --font-sans: "Poppins", sans-serif;
   --font-body: "Inter", sans-serif;
+
+  /* Animação marquee (carrossel contínuo) */
+  --animate-marquee: marquee 20s linear infinite;
+
+  @keyframes marquee {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
 }
 
 @layer base {

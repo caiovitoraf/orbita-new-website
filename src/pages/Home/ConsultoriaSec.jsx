@@ -25,7 +25,7 @@ export default function ConsultoriaSection() {
         <div className="mb-6 h-6 w-1/2 rounded bg-neutral-200" />
         {/* Gráfico de barras simples */}
         <div className="grid grid-cols-3 gap-4 h-[260px] sm:h-[320px]">
-          <div className="h-full bg-orbita-purple-light rounded"></div>
+          <div className="h-full bg-orbita-cyan rounded"></div>
           <div className="h-[85%] bg-orbita-cyan/60 rounded"></div>
           <div className="h-[95%] bg-orbita-cyan rounded"></div>
         </div>
@@ -52,7 +52,7 @@ export default function ConsultoriaSection() {
             <ul className="space-y-4 mb-8 max-w-md">
               {consultingServices.map((service) => (
                 <li key={service} className="flex items-start gap-3">
-                  <CheckCircleIcon className="h-5 w-5 text-orbita-cyan" />
+                  <CheckCircleIcon className="h-5 w-5 text-orbita-purple-light" />
                   <span className="text-neutral-200">{service}</span>
                 </li>
               ))}

@@ -64,7 +64,7 @@ export default function OrbitaAppSection() {
             <ul className="space-y-4 mb-8 max-w-md">
               {appBenefits.map((item) => (
                 <li key={item} className="flex items-start gap-3">
-                  <CheckCircleIcon className="h-5 w-5 text-orbita-cyan" />
+                  <CheckCircleIcon className="h-5 w-5 text-orbita-purple-light" />
                   <span className="text-neutral-200">{item}</span>
                 </li>
               ))}
