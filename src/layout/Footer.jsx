@@ -14,7 +14,7 @@ const FooterLogo = () => (
   <a href="/" className="flex flex-row items-center gap-x-4">
     <img src="/logo.png" alt="Logo da Órbita" className="h-16 w-auto" />
     <span className="font-sans text-5xl font-extrabold bg-gradient-to-r from-orbita-purple to-orbita-cyan bg-clip-text text-transparent">
-      Órbita
+      Órbita.
     </span>
   </a>
 );

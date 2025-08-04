@@ -7,6 +7,7 @@ import Footer from './layout/Footer';
 
 import Home from './pages/Home';
 import SobreNos from './pages/SobreNos';
+import Contato from './pages/Contato'
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -24,6 +25,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/sobre-nos" element={<SobreNos />} />
+          <Route path="/contato" element={<Contato />} />
         </Routes>
       </main>
       <Footer />

@@ -9,7 +9,7 @@ function Hero() {
           <span className="font-sans text-base sm:text-lg font-bold uppercase tracking-wider text-orbita-purple mb-4">
             Plataforma e Agência de Performance
           </span>
-          <h1 className="font-sans text-5xl sm:text-6xl lg:text-7xl font-extrabold text-neutral-800 leading-tight max-w-5xl">
+          <h1 className="font-sans text-5xl sm:text-6xl lg:text-7xl font-extrabold text-neutral-800 leading-tight max-w-4xl">
             Centralize seu Marketing. Acelere seus Resultados.
           </h1>
           <p className="mt-6 max-w-2xl text-xl sm:text-2xl text-neutral-600">

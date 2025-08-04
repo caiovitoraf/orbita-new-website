@@ -18,7 +18,7 @@ const OrbitaLogo = () => (
         bg-clip-text text-transparent
       "
     >
-      Órbita
+      Órbita Estratégica
     </span>
   </Link>
 );
